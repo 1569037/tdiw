@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8" />
+        <title>NOM_BOTIGA</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css" />
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="contenedor">
+            <div class="logo">
+                <img src="http://dummyimage.com/200x100/000/fff&text=LOGO" alt="">
+            </div>
+
+            <nav class="">
+                <ul>
+                    <li><a href=""> Maquillatge </a></li>
+                    <li><a href=""> Perfums </a></li>
+                    <li><a href=""> Registre </a></li>
+                    <li><a href=""> Login </a></li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+
+        <section>
+            <div id="formulario">
+                <from method="post" acion="" onsubmit="return confirmaRegistre();" >
+                    Nom: <input type='text' name='Nom' required/> <br /> 
+                    Correu: <input type='email' name='Correu' required/> <br /> 
+                    Contrasenya:<input type='password' name='Contrasenya' required/> <br /> 
+                    Adreça:<input type='text' maxlength="30" name='Adreça' required/> <br /> 
+                    Població:<input type='text' maxlength="30" name='Població' required/> <br /> 
+                    Codi Postal:<input type='text' maxlength="5" minlength="5" pattern="[0-9]{3}" name='Codi' required/> <br /> 
+
+                    <input type="submit" value="Registrar-me" />
+                </from>
+            </div>
+        </section>
+
+
+    </body>
+
+
+
+
+
+
+
+
+</html>
